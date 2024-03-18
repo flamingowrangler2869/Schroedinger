@@ -1,7 +1,7 @@
 # Schrödinger
 Schrödinger equation simulation in C
 
-This version only has one potential energy function, where $V(x)=0$ if $x$ is between $0$ and $1$, and $V(x)=\infty$ otherwise.
+This version only has one potential energy function, where $V(x)=0$ if $x$ is between $0$ and $1$, and $V(x)=\infty$ otherwise (the "Infinite square well" potential, as it's often called).
 
 This was sloppily made over the course of around 2 months in the winter. I never learned out to structure C projects, so it's all in one file. I also wrote it on my laptop whilst on vacation, in class, at home, and at various events, so it's even more twisted as my thoughts were completely scattered throughout development.
 
