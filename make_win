@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -xe
+
+gcc -DWINDOWS *.c -lSDL2 -o qm && ./qm
