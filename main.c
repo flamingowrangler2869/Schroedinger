@@ -183,7 +183,11 @@ double expectation(complex double wavefunc[], size_t len) {
 	return sum;
 }
 
+#ifdef WINDOWS
+int WinMain() {
+#else
 int main() {
+#endif
 	SDL_Init(SDL_INIT_VIDEO);
 	SDL_Window   *window   = SDL_CreateWindow("Particle in a Box", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, SDL_WINDOW_OPENGL);
 	renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
