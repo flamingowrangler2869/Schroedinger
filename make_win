@@ -2,4 +2,4 @@
 
 set -xe
 
-gcc -DWINDOWS *.c -lSDL2 -o qm && ./qm
+gcc -DWINDOWS *.c -lm -lSDL2 -o qm && ./qm
